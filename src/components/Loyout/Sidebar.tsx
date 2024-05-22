@@ -2,12 +2,6 @@
 import Image from "next/image";
 import React from "react";
 import imgx from "@/img/author1.png";
-import user from "@/img/user.svg";
-import doctor from "@/img/doctor.svg";
-import team from "@/img/team.svg";
-import setting from "@/img/setting.svg";
-import logout from "@/img/logout.svg";
-import payment from "@/img/payment.svg";
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 import {

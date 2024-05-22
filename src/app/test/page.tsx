@@ -19,7 +19,7 @@ const Test = () => {
 					img={""}
 				/>
 				{/* <SignupFormDemo /> */}
-				{/* <TableDoctors /> */}
+				<TableDoctors />
 			</Layout>
 		</div>
 	);
