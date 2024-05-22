@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import imgx from "@/img/author1.png";
@@ -8,12 +9,22 @@ import setting from "@/img/setting.svg";
 import logout from "@/img/logout.svg";
 import payment from "@/img/payment.svg";
 import { cn } from "@/lib/utils";
+import { useRouter } from "next/navigation";
+import {
+	User,
+	Activity,
+	Users,
+	Settings,
+	CreditCard,
+	LogOut,
+} from "lucide-react";
 type sidebarProps = {
 	img: string;
 	userName: string;
 };
 
 const Sidebar = ({ img, userName }: sidebarProps) => {
+	const route = useRouter();
 	return (
 		<div className="w-32 min-h-screen flex flex-col items-center rounded-none md:rounded-2xl md:p-8 shadow-input bg-white dark:bg-black">
 			<div className="flex flex-col items-center">
@@ -23,42 +34,45 @@ const Sidebar = ({ img, userName }: sidebarProps) => {
 						{userName ? userName : "John Doe"}
 					</p>
 				</div>
-				<div className="flex flex-col gap-10">
+				<div
+					className="flex flex-col gap-10"
+					onClick={() => route.push("/login")}
+				>
+					<IconContainer onClick={() => route.push("/login")}>
+						<User />
+						<p className="left-10 absolute bg-white dark:bg-black hidden group-hover:block shadow-md p-2 rounded-md">
+							User
+						</p>
+					</IconContainer>
 					<IconContainer>
-						<Image src={user} alt="user" />
-						<p className="left-10 absolute hidden group-hover:block shadow-md p-2 rounded-md">
+						<Activity />
+						<p className="left-10 absolute bg-white dark:bg-black hidden group-hover:block shadow-md p-2 rounded-md">
 							Appointment
 						</p>
 					</IconContainer>
 					<IconContainer>
-						<Image src={doctor} alt="doctor" />
-						<p className="left-10 absolute hidden group-hover:block shadow-md p-2 rounded-md">
+						<Users />
+						<p className="left-10 absolute bg-white dark:bg-black hidden group-hover:block shadow-md p-2 rounded-md">
 							Appointment
 						</p>
 					</IconContainer>
 					<IconContainer>
-						<Image src={team} alt="team" />
-						<p className="left-10 absolute hidden group-hover:block shadow-md p-2 rounded-md">
+						<Settings />
+						<p className="left-10 absolute bg-white dark:bg-black hidden group-hover:block shadow-md p-2 rounded-md">
 							Appointment
 						</p>
 					</IconContainer>
 					<IconContainer>
-						<Image src={setting} alt="setting" />
-						<p className="left-10 absolute hidden group-hover:block shadow-md p-2 rounded-md">
-							Appointment
-						</p>
-					</IconContainer>
-					<IconContainer>
-						<Image src={payment} alt="payment" />
-						<p className="left-10 absolute hidden group-hover:block shadow-md p-2 rounded-md">
+						<CreditCard />
+						<p className="left-10 absolute bg-white dark:bg-black hidden group-hover:block shadow-md p-2 rounded-md">
 							Appointment
 						</p>
 					</IconContainer>
 				</div>
 			</div>
 			<IconContainer className="mt-auto">
-				<Image src={logout} alt="logout" />
-				<p className="left-10 absolute hidden group-hover:block shadow-md p-2 rounded-md">
+				<LogOut />
+				<p className="left-10 absolute bg-white dark:bg-black hidden group-hover:block shadow-md p-2 rounded-md">
 					Logout
 				</p>
 			</IconContainer>
@@ -71,9 +85,11 @@ export default Sidebar;
 const IconContainer = ({
 	children,
 	className,
+	onClick,
 }: {
 	children: React.ReactNode;
 	className?: string;
+	onClick?: any;
 }) => {
 	return (
 		<div
@@ -81,6 +97,7 @@ const IconContainer = ({
 				"group flex cursor-pointer items-center rounded-md hover:shadow-md sticky",
 				className
 			)}
+			onClick={() => onClick}
 		>
 			{children}
 		</div>

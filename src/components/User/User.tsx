@@ -25,7 +25,7 @@ const User = ({
 			<h2 className="font-bold text-4xl">Profile</h2>
 			<div className="shadow-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 bg-white dark:bg-black">
 				<div className="flex gap-10">
-					<div className="bg-white rounded-2xl shadow-md dark:bg-black">
+					<div className="bg-white rounded-2xl shadow-md dark:bg-bl">
 						<Image
 							src={img ? img : user}
 							alt="user"
