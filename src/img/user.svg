@@ -1,0 +1,12 @@
+<svg width="26.000000" height="26.000000" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_51_1130" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image51_113_0" transform="matrix(0.015625,0,0,0.015625,0,0)"/>
+		</pattern>
+		<image id="image51_113_0" width="64.000000" height="64.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAABM5JREFUeJztml1oW2UYx3/PSZo528oY4qBd07nGpHTihoLMSy9WyMdAhpvT+XExZlWYF8JkQ3DZFB1D2RBECZPBcKBWh9gmQb3wSvGDQQXt0o+NLW2HOIXp2mnT5H28cBsn2daW7iQnW/K7e/953/P8zz/nnPd9TwJ1ahtZ6MAHWtbfPuk1vaAPg3zTlLc2Hj/bd9FJc5WobS3UxJTXPAkaARaDRv5vVwYnay84ANCW2dvlxLnaNxDArcGVZ0AgEF7kyUmPCE+oci/Q6KKvcjAlwi+oHM37TGJ0ND0NlwIILo+1ipgkwmp3PVaMATVWbHi8f0ICgfAiz7T8UEMnf5mBgk/XWp6c9NTgyQOs8c6wzQtssasCSWOsnuHx/onZRnf6I3GF3bZxezLZVLw8Xm+8dqA1vNxjSQIhfFkzRrZYIF32jvmCPjfXyd+MjE6kx/OFfI9dE2GVBdpU2nE+BzToxGztcrLQ2ifPfjVWIjUveB3QnPceBfqAi0DfpXZFcLK2hPwRtQtD2dSC9wc3A6XnW/MrwZoP4KpboNao+SugHoDbBtzGWyrUp8Eaox6A2wbcph6A2wbc5qpZoFoJtUd2oOwEslLgscxEatiJ494UV0CwLboZZT+wFFhjvMSdOnbVBxBcsb5TRBN2TZS8U8ev6gDuW9bdiDGfAs02ecqIvOlUjap+Bvy7yPOuoKvsmqIvjJxJnXCqRtUG0OmP9Cg8UyK/P5xNH3GyTlXeAsG7Y6sVDhSJys9TpvElp2tVXQArVjyyRArmGLDYJp83IhvGx3v/cbpetQUgvkLuA2ClTVMR2TqSTZ4qR8GqegaE/OEdwIYiUfXtTDZ1rFw1q+YK6GyPPQTyul1T5XtPc9Mr5axbFQF0dHTfpWp6gYYronAOtR4dHOzNlbN2FQQQtzwz3g+BVptoxMhTlfiN0rFnQKAt3OERPgEJCHowk03vnnsUhNp+igPr7JrAa5mx5JdOeZsNx64AD7IX5H7gDkVeDfojb8w1JtgeDiNadI8rfJ3JPrjXKV9z4dwtIJjiJrtC/vDL1+vetTLmF5UjJR4mTE63QNxcb5zTOBaAZay9wB/Fquzr9EefLe3b1bXRl58xHwN32uQZ0MdGf0ufc8rTfHAsgBPj/SPGYh1w3iaLou8F26Kb7X3zk5NvibDWrqmycyib/tYpP/PF0Vlg5HRqQESiwJS9hogeuac9GgUI+SObBNleMrRveCx1ABdwfBrMnEl+J7AZmLHJDZZqb6g9uhU4VDLk1LTlexpw5UfasqwDMtlUvwiPAwWbvBjVQxS/3JgWZNPp05+fxyXKthDKnEl9hrKNWb5ZQV7MZJPHy+VhPpR1JTg0ljoMcs09vIh+lMkmE9f6rJKUfSk8lE0eFNhXKuttDVdNj25Qkb1AJpvaJbAH+Av4saAaHRr64kIlas9Fxd4HXPonZ7xS9eZLFewG3aUegNsG3MYCmbQLgdbwcrfMlJuOlu62EumCBTpoVzyWJG7FEDpautu8Dd6idYcqv0qnP7pd0XfcMuYmIrrdyvtMAhhw24wLDFiNTQlrdDQ9rcaKUVshDKixYoODvTkPwJ9/D19Y1rrmMDO531VlqYgsAXwum3QYmQQ9LsJ+T1PT85mT7u1A61QT/wHQFKuVa0BydwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<rect id="appointment 1" width="26.000000" height="26.000000" fill="url(#pattern_51_1130)" fill-opacity="1.000000"/>
+</svg>
