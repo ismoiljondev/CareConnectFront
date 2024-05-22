@@ -78,7 +78,7 @@ const IconContainer = ({
 	return (
 		<div
 			className={cn(
-				"group flex items-center rounded-md hover:shadow-md sticky",
+				"group flex cursor-pointer items-center rounded-md hover:shadow-md sticky",
 				className
 			)}
 		>
