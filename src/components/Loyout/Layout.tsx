@@ -12,7 +12,7 @@ const Layout = ({
 			<Sidebar img="" userName="" />
 			<div className="flex flex-col w-full p-10">
 				<Header />
-				<div>{children}</div>
+				<div className="mt-20">{children}</div>
 			</div>
 		</div>
 	);
